@@ -15,8 +15,8 @@ function createWindow() {
     }
   });
 
-  // Load the index.html file
-  mainWindow.loadFile('index.html');
+  // Load the index.html file using an absolute path
+  mainWindow.loadFile(path.join(__dirname, 'index.html'));
 
   // Open DevTools in development mode
   if (process.env.NODE_ENV === 'development') {
