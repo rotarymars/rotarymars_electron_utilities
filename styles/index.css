@@ -28,7 +28,7 @@ h1 {
 }
 
 .utility-button {
-    background-color: #4a90e2;
+    background-color: #00b1ae;
     color: white;
     border: none;
     padding: 15px 25px;
@@ -40,16 +40,5 @@ h1 {
 }
 
 .utility-button:hover {
-    background-color: #357abd;
+    background-color: color-mix(in srgb, #00b1ae 70%, black 30%);
 }
-
-.utility-content {
-    display: none;
-    margin-top: 20px;
-    padding: 20px;
-    border-top: 1px solid #eee;
-}
-
-.utility-content.active {
-    display: block;
-} 
