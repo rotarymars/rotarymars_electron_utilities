@@ -4,8 +4,8 @@
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "NODE_ENV=development electron .",
-    "build": "NODE_ENV=production electron-builder"
+    "start": "env NODE_ENV=development electron .",
+    "build": "env NODE_ENV=production electron-builder"
   },
   "author": "",
   "license": "ISC",
